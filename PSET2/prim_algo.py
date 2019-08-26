@@ -19,15 +19,8 @@ def createAdjMatrix(V, G):
     
   return adjMatrix
 
-def prims(V, G):
-  
-  # create adj matrix from graph
-  adjMatrix = createAdjMatrix(V, G)
-  
-  # arbitrarily choose initial vertex from graph
+def prims(V, mi):
   vertex = 0
-  
-  # initialize empty edges array and empty MST
   MST = []
   edges = []
   visited = []
@@ -42,8 +35,8 @@ def prims(V, G):
     
     # add each edge to list of potential edges
     for r in range(0, V):
-      if adjMatrix[vertex][r] != 0:
-        edges.append([vertex,r,adjMatrix[vertex][r]])
+      if mi[vertex][r] != 0:
+        edges.append([vertex,r,mi[vertex][r]])
         
     # find edge with the smallest weight to a vertex
     # that has not yet been visited
@@ -62,6 +55,7 @@ def prims(V, G):
     minEdge = [None,None,float('inf')]
     
   return MST
+  
 
 if __name__ == "__main__":
         # graph vertices are actually represented as numbers

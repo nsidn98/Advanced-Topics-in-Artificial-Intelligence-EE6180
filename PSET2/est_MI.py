@@ -1,5 +1,5 @@
 import numpy as np
-from .est_entro import est_entro_JVHW, est_entro_MLE, formalize_sample
+from est_entro import est_entro_JVHW, est_entro_MLE, formalize_sample
 
 def est_MI_JVHW(X, Y):
     """This function returns our scalar estimate of mutual information I(X;Y)
