@@ -1,4 +1,4 @@
-* Go to [Chow-Liu.ipynb](https://github.com/nsidn98/Advanced-Topics-in-Artificial-Intelligence-EE6180/blob/master/PSET2/Chow-Liu.ipynb) for problem 1.
+* Go to [Chow-Liu.ipynb](https://nbviewer.jupyter.org/github/nsidn98/Advanced-Topics-in-Artificial-Intelligence-EE6180/blob/master/PSET2/Chow-Liu.ipynb) for problem 1.
 
 ### Requirements:
 * graphviz
