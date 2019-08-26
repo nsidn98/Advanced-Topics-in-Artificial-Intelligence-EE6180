@@ -14,3 +14,7 @@ After the above step,
 * `pip install graphviz` or `conda install graphviz`
 
 #### For other python libraries, just do `pip install <package-name>`
+
+## References:
+* Prim's Algorithm: CoderByte tutorial on [Minimum Spanning Tree](https://coderbyte.com/algorithm/find-minimum-spanning-tree-using-prims-algorithm)
+* JVHW Mutual Information Estimator: [GitHub Repository](https://github.com/EEthinker/JVHW_Entropy_Estimators)
